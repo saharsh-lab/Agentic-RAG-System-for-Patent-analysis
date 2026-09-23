@@ -1,0 +1,35 @@
+# Environment & Secrets
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Uploads & Data
+uploads/
+data/
+*.pdf
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# System & IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Local logs
+*.log
